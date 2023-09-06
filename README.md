@@ -48,3 +48,9 @@ With categorized data, we enabled a mapping feature that uses latitude and longi
  ## In this way
  our project creates a security honeypot that not only monitors unauthorized access attempts to the virtual machine but also provides detailed geographical information about the source of these attempts, presenting them visually on a map. This approach enhances our understanding of threats and strengthens security measures.
 
+## Contributions
+Contributions are welcome! Feel free to open issues or pull requests for improvements, bug fixes, or new features.
+
+## License
+This project is licensed under the MIT License © GussBad.
+
