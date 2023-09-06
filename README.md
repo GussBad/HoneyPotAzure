@@ -12,25 +12,26 @@ This project is a highly configurable honeypot that logs and tracks malicious ac
 
 
 ## How It Works
-
-1 - Azure Virtual Machine Setup
+1. Azure Virtual Machine Setup
 Initially, we provisioned a virtual machine on Microsoft Azure to serve as a honeypot (a deliberately vulnerable machine).
-2 - Enabling Echo Requests
+2. Enabling Echo Requests
 We configured the virtual machine to accept ICMP Echo (ping) requests to create a target for potential unauthorized access attempts.
-3 - IP Geolocation API Integration
+3. IP Geolocation API Integration
 We utilized the IP geolocation API provided by ipgeolocation.io to obtain detailed information about the IP addresses attempting to access the virtual machine.
-4 - PowerShell Data Retrieval
+4. PowerShell Data Retrieval
 We created a PowerShell script that periodically checks access logs and collects data, including IP addresses, timestamps, and any other relevant information.
+
 
 ![Script da virtual machine](https://github.com/GussBad/HoneyPotAzure/assets/98527927/b3a5179d-ab18-4a44-871d-69f3fadd9f0b)
 
 
-6 - Logging to Text File
+5. Logging to Text File
 The data collected by PowerShell is logged into a text file located on the virtual machine.
-7 - Data Transfer to Server
+
+7. Data Transfer to Server
 We configured the virtual machine to periodically send access log data from the text file to a remote server.
 
-9 - Server-Side Processing
+9. Server-Side Processing
 On the server, we set up an environment to process the data received from access logs. We used Custom Log functionality to interpret and categorize the data based on criteria such as country, city, and state.
 
 ![ScriptServerSide](https://github.com/GussBad/HoneyPotAzure/assets/98527927/b8ad56b9-d1d1-4521-b337-8430c7962afb)
