@@ -9,3 +9,13 @@ This project is a highly configurable honeypot that logs and tracks malicious ac
 - Geographical Tracking: Map the origin of access attempts on an interactive map.
 - Flexible Configuration: Customize honeypot settings to suit your specific security needs.
 - Alerts and Notifications: Receive alerts and notifications when suspicious activities are detected.
+
+
+## How It Works
+
+- The honeypot is deployed on an Azure virtual machine, configured to log unauthorized access attempts.
+- Malicious access attempts are logged and analyzed in real-time.
+- The data is mapped on an interactive map, displaying the geographical location of access attempts.
+- Alerts are generated to notify about suspicious activities.
+
+  
