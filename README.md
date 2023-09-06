@@ -3,7 +3,7 @@ This project is a highly configurable honeypot that logs and tracks malicious ac
 ![image](https://github.com/GussBad/HoneyPotAzure/assets/98527927/00c9858f-79a6-4fb2-8441-36a696dfe4bf)
 
 
-### Key Features
+## Key Features
 
 - Real-Time Monitoring: Track and visualize malicious access attempts to your virtual machine in real-time.
 - Geographical Tracking: Map the origin of access attempts on an interactive map.
