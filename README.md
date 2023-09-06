@@ -1,2 +1,3 @@
 # HoneyPotAzure
 This project is a highly configurable honeypot that logs and tracks malicious access attempts to my Azure virtual machine. It visually maps these attempts on a real-time geographical map, providing a graphical representation of ongoing security threats.
+![image](https://github.com/GussBad/HoneyPotAzure/assets/98527927/00c9858f-79a6-4fb2-8441-36a696dfe4bf)
